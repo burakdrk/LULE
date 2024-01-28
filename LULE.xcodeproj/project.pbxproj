@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67B49C222B661A7D00838812 /* LULEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B49C212B661A7D00838812 /* LULEApp.swift */; };
+		67B49C242B661A7D00838812 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B49C232B661A7D00838812 /* ContentView.swift */; };
+		67B49C262B661A7F00838812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B49C252B661A7F00838812 /* Assets.xcassets */; };
+		67B49C292B661A7F00838812 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B49C282B661A7F00838812 /* Preview Assets.xcassets */; };
+		67B49C332B661A7F00838812 /* LULETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B49C322B661A7F00838812 /* LULETests.swift */; };
+		67B49C3D2B661A8000838812 /* LULEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B49C3C2B661A8000838812 /* LULEUITests.swift */; };
+		67B49C3F2B661A8000838812 /* LULEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B49C3E2B661A8000838812 /* LULEUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67B49C2F2B661A7F00838812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67B49C162B661A7D00838812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67B49C1D2B661A7D00838812;
+			remoteInfo = LULE;
+		};
+		67B49C392B661A7F00838812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67B49C162B661A7D00838812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67B49C1D2B661A7D00838812;
+			remoteInfo = LULE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67B49C1E2B661A7D00838812 /* LULE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LULE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B49C212B661A7D00838812 /* LULEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LULEApp.swift; sourceTree = "<group>"; };
+		67B49C232B661A7D00838812 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		67B49C252B661A7F00838812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67B49C282B661A7F00838812 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67B49C2E2B661A7F00838812 /* LULETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LULETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B49C322B661A7F00838812 /* LULETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LULETests.swift; sourceTree = "<group>"; };
+		67B49C382B661A7F00838812 /* LULEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LULEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67B49C3C2B661A8000838812 /* LULEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LULEUITests.swift; sourceTree = "<group>"; };
+		67B49C3E2B661A8000838812 /* LULEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LULEUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67B49C1B2B661A7D00838812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B49C2B2B661A7F00838812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B49C352B661A7F00838812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67B49C152B661A7D00838812 = {
+			isa = PBXGroup;
+			children = (
+				67B49C202B661A7D00838812 /* LULE */,
+				67B49C312B661A7F00838812 /* LULETests */,
+				67B49C3B2B661A8000838812 /* LULEUITests */,
+				67B49C1F2B661A7D00838812 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67B49C1F2B661A7D00838812 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67B49C1E2B661A7D00838812 /* LULE.app */,
+				67B49C2E2B661A7F00838812 /* LULETests.xctest */,
+				67B49C382B661A7F00838812 /* LULEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67B49C202B661A7D00838812 /* LULE */ = {
+			isa = PBXGroup;
+			children = (
+				67B49C212B661A7D00838812 /* LULEApp.swift */,
+				67B49C232B661A7D00838812 /* ContentView.swift */,
+				67B49C252B661A7F00838812 /* Assets.xcassets */,
+				67B49C272B661A7F00838812 /* Preview Content */,
+			);
+			path = LULE;
+			sourceTree = "<group>";
+		};
+		67B49C272B661A7F00838812 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				67B49C282B661A7F00838812 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		67B49C312B661A7F00838812 /* LULETests */ = {
+			isa = PBXGroup;
+			children = (
+				67B49C322B661A7F00838812 /* LULETests.swift */,
+			);
+			path = LULETests;
+			sourceTree = "<group>";
+		};
+		67B49C3B2B661A8000838812 /* LULEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67B49C3C2B661A8000838812 /* LULEUITests.swift */,
+				67B49C3E2B661A8000838812 /* LULEUITestsLaunchTests.swift */,
+			);
+			path = LULEUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67B49C1D2B661A7D00838812 /* LULE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B49C422B661A8000838812 /* Build configuration list for PBXNativeTarget "LULE" */;
+			buildPhases = (
+				67B49C1A2B661A7D00838812 /* Sources */,
+				67B49C1B2B661A7D00838812 /* Frameworks */,
+				67B49C1C2B661A7D00838812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LULE;
+			productName = LULE;
+			productReference = 67B49C1E2B661A7D00838812 /* LULE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67B49C2D2B661A7F00838812 /* LULETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B49C452B661A8000838812 /* Build configuration list for PBXNativeTarget "LULETests" */;
+			buildPhases = (
+				67B49C2A2B661A7F00838812 /* Sources */,
+				67B49C2B2B661A7F00838812 /* Frameworks */,
+				67B49C2C2B661A7F00838812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67B49C302B661A7F00838812 /* PBXTargetDependency */,
+			);
+			name = LULETests;
+			productName = LULETests;
+			productReference = 67B49C2E2B661A7F00838812 /* LULETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67B49C372B661A7F00838812 /* LULEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67B49C482B661A8000838812 /* Build configuration list for PBXNativeTarget "LULEUITests" */;
+			buildPhases = (
+				67B49C342B661A7F00838812 /* Sources */,
+				67B49C352B661A7F00838812 /* Frameworks */,
+				67B49C362B661A7F00838812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67B49C3A2B661A8000838812 /* PBXTargetDependency */,
+			);
+			name = LULEUITests;
+			productName = LULEUITests;
+			productReference = 67B49C382B661A7F00838812 /* LULEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67B49C162B661A7D00838812 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					67B49C1D2B661A7D00838812 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					67B49C2D2B661A7F00838812 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 67B49C1D2B661A7D00838812;
+					};
+					67B49C372B661A7F00838812 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 67B49C1D2B661A7D00838812;
+					};
+				};
+			};
+			buildConfigurationList = 67B49C192B661A7D00838812 /* Build configuration list for PBXProject "LULE" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67B49C152B661A7D00838812;
+			productRefGroup = 67B49C1F2B661A7D00838812 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67B49C1D2B661A7D00838812 /* LULE */,
+				67B49C2D2B661A7F00838812 /* LULETests */,
+				67B49C372B661A7F00838812 /* LULEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67B49C1C2B661A7D00838812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B49C292B661A7F00838812 /* Preview Assets.xcassets in Resources */,
+				67B49C262B661A7F00838812 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B49C2C2B661A7F00838812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B49C362B661A7F00838812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67B49C1A2B661A7D00838812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B49C242B661A7D00838812 /* ContentView.swift in Sources */,
+				67B49C222B661A7D00838812 /* LULEApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B49C2A2B661A7F00838812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B49C332B661A7F00838812 /* LULETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67B49C342B661A7F00838812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B49C3F2B661A8000838812 /* LULEUITestsLaunchTests.swift in Sources */,
+				67B49C3D2B661A8000838812 /* LULEUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67B49C302B661A7F00838812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67B49C1D2B661A7D00838812 /* LULE */;
+			targetProxy = 67B49C2F2B661A7F00838812 /* PBXContainerItemProxy */;
+		};
+		67B49C3A2B661A8000838812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67B49C1D2B661A7D00838812 /* LULE */;
+			targetProxy = 67B49C392B661A7F00838812 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		67B49C402B661A8000838812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67B49C412B661A8000838812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67B49C432B661A8000838812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LULE/Preview Content\"";
+				DEVELOPMENT_TEAM = P8P545YJ97;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.burakduruk.LULE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67B49C442B661A8000838812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LULE/Preview Content\"";
+				DEVELOPMENT_TEAM = P8P545YJ97;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.burakduruk.LULE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67B49C462B661A8000838812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P8P545YJ97;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.burakduruk.LULETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LULE.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LULE";
+			};
+			name = Debug;
+		};
+		67B49C472B661A8000838812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P8P545YJ97;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.burakduruk.LULETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LULE.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LULE";
+			};
+			name = Release;
+		};
+		67B49C492B661A8000838812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P8P545YJ97;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.burakduruk.LULEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LULE;
+			};
+			name = Debug;
+		};
+		67B49C4A2B661A8000838812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P8P545YJ97;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.burakduruk.LULEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LULE;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67B49C192B661A7D00838812 /* Build configuration list for PBXProject "LULE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B49C402B661A8000838812 /* Debug */,
+				67B49C412B661A8000838812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67B49C422B661A8000838812 /* Build configuration list for PBXNativeTarget "LULE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B49C432B661A8000838812 /* Debug */,
+				67B49C442B661A8000838812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67B49C452B661A8000838812 /* Build configuration list for PBXNativeTarget "LULETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B49C462B661A8000838812 /* Debug */,
+				67B49C472B661A8000838812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67B49C482B661A8000838812 /* Build configuration list for PBXNativeTarget "LULEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67B49C492B661A8000838812 /* Debug */,
+				67B49C4A2B661A8000838812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67B49C162B661A7D00838812 /* Project object */;
+}
